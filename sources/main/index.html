@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css"/>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
 </head>
 <body>
 
@@ -16,47 +18,423 @@
             <label for="menu">
                 <img class="menu-icon" src="../images/menu.png" >
             </label>
-        </div>
-        <nav class="navbar">
-            <div class="manu-1">    
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                </ul>
-            </div>
-            <img class="logo-2" src="../images/logo.svg" >
-
-            <div class="menu-2">
-                <ul>
-                    <li><a href="#">Horario</a></li>
-                </ul>
-                <div class="socials">
-                    <a href="#">
-                        <div class="social">
-                            <img src="../images/s1.svg">
-                            
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="social">
-                            <img src="../images/s2.svg">
-                            
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="social">
-                            <img src="../images/s3.svg">
-                            
-                        </div>
-                    </a>
+        
+            <nav class="navbar">
+                <div class="manu-1">    
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Productos</a></li>
+                    </ul>
                 </div>
+                <img class="logo-2" src="../images/logo.svg" >
+
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="../images/s1.svg">                               
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="../images/s2.svg">                            
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="../images/s3.svg">              
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                     Fugiat corporis harum accusamus deleniti nam minima cumque, 
+                                     veniam culpa fuga optio sed eius vel excepturi dolore dicta, 
+                                     quos voluptate voluptatum laudantium?
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="../images/slider1.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Torta</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                     Fugiat corporis harum accusamus deleniti nam minima cumque, 
+                                     veniam culpa fuga optio sed eius vel excepturi dolore dicta, 
+                                     quos voluptate voluptatum laudantium?
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="../images/slider2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Burger</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                     Fugiat corporis harum accusamus deleniti nam minima cumque, 
+                                     veniam culpa fuga optio sed eius vel excepturi dolore dicta, 
+                                     quos voluptate voluptatum laudantium?
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Manu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="../images/slider3.png">
+                            </div>
+                        </div>
+                    </div>
+                                       
+                </div>
+
+                <div class="swiper-button-next"></div>    
+                <div class="swiper-button-prev"></div>   
+                <div class="swiper-pagination"></div> 
             </div>
-        </nav>
+        </div>
     </header>
 
+    <main class="products">
+        <div class="tabs container">
+
+            <!-- tab 1 -->
+            <input class="tabInput" type="radio" name="tabs" id="tab1" checked="checked" value="1">
+            <label for="tab1">Hamburguesa</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <!-- productos -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food1.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°1</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$800.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°2</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$700.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food3.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°3</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$00.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- buttons nav -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- fin tab 1 -->
+
+            <!-- tab 2 -->
+            <input class="tabInput" type="radio" name="tabs" id="tab2" checked="checked" value="2">
+            <label for="tab2">Burrito</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <!-- productos -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food4.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°1</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$800.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food5.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°2</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$700.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food6.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°3</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$00.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- buttons nav -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- fin tab 2 -->
+
+            <!-- tab 3 -->
+            <input class="tabInput" type="radio" name="tabs" id="tab3" checked="checked" value="3">
+            <label for="tab3">Variedad</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <!-- productos -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food7.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°1</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$800.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food8.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°2</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$700.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="../images/food9.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto n°3</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$00.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- buttons nav -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- fin tab 3 -->
+
+        </div>
+    </main>
+
+    <section class="info container">
+        <div class="info-img">
+            <img src="../images/info.png" alt="">
+        </div>
+        <div class="info-txt">
+            <h2>Información</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ex, quidem suscipit quibusdam vel et expedita,
+                dicta voluptatibus exercitationem, dolor autem quisquam tenetur eligendi quas magni deleniti ratione odio aliquam!
+            </p>
+            <a href="#" class="btn-2">Más Información</a>
+
+        </div>
+
+    </section>
+
+    <!-- horario -->
+    <section class="horario">
+        <div class="horario-info container">
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Dirección</h4>
+                    <p>Bolivar 1313</p>
+                    <p>Barrio Rivadavia</p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>Lunes a Viernes: 9 am - 8 pm</p>
+                    <p>Findesemanas: 11 am - 10 pm</p>
+                </div>
+                <div class="txt">
+                    <h4>Teléfono</h4>
+                    <p>3534275477</p>
+                    <p>3534298889</p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="../images/s1.svg">                               
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="../images/s2.svg">                            
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="../images/s3.svg">              
+                            </div>
+                        </a>
+                    </div>
+                        
+                </div>
+
+            </div>
+        </div>
+    </section>
+     <!--fin horarios -->
+
+    <!-- maps -->
+    <section >
+        
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45317.330052707875!2d-63.26552668744874!3d-32.41297769589287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc42fb51306dc1%3A0xbfb3fffbd425c6b1!2zVmlsbGEgTWFyw61hLCBDw7NyZG9iYQ!5e0!3m2!1ses!2sar!4v1701807822918!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+       
+        
+    </section>
+     <!-- fin maps -->
+
+    <!-- footer -->
+    <footer class="footer container">
+        <img  class="logo-2" src="../images//logo.svg" >
+        
+        <div class="links">
+            <h4>Lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Lorem</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="../images/s1.svg">                               
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="../images/s2.svg">                            
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="../images/s3.svg">              
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+     <!-- fin footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
     <script src="index.js"></script>
 </body>
 </html>
