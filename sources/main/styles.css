@@ -210,8 +210,13 @@ body {
 
 .tabs input[type = "radio"]:checked + label{
     border-bottom: 2px solid #db241b;
-    color:#a7a7a7
+    color:#ffffff
 }
+
+.tabs input[type = "radio"]:checked + label + .tab{
+    display: block;
+}
+
 
 /* products */
 
